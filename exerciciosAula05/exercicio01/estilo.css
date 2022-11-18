@@ -1,0 +1,30 @@
+.principal {
+    width: 550px;
+    height: 350px;
+    border: 2px solid brown;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: Ubuntu;
+}
+
+h2 {
+    color: brown;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+p {
+    text-indent: 1cm;
+    text-align: justify;
+}
+
+hr {
+    border: 1px solid brown;
+}
+
+h4 {
+    color: brown;
+    text-transform: uppercase;
+
+}
