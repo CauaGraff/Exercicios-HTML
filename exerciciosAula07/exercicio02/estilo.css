@@ -1,0 +1,40 @@
+.principal {
+    width: 300px;
+    border: 1px solid #748991;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Ubuntu;
+    background-color: white;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #0e2632;
+}
+
+p {
+    color: #8f9aa7;
+}
+
+body {
+    background-color: #eaeff1;
+}
+
+.botao {
+    background-color: #e0efff;
+    width: 100px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+    color: #0077ff;
+    margin-top: 10px;
+}
+
+.alinhamento {
+    display: flex;
+    justify-content: center;
+}
