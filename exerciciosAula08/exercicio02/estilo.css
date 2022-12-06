@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    font-family: Ubuntu;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+    font-size: 14pt;
+    background-color: rgb(223, 145, 2);
+    color: black;
+}
+
+.fundo {
+    background-color: orange;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fde4b4;
+}
