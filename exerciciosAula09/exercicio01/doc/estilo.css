@@ -1,0 +1,37 @@
+img {
+    width: 150px;
+    height: 250px;
+    border-radius: 5px;
+
+}
+
+h2 {
+    font-family: Ubuntu;
+    font-size: 18pt;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 0.5cm;
+    font-family: Ubuntu;
+}
+
+.main {
+    width: 900px;
+}
+
+.alinhamento {
+    text-align: center;
+}
+
+
+h2 {
+    color: royalblue;
+}
