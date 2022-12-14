@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Belwe Lt BT";
+}
+
+.titulo {
+    text-align: center;
+}
+
+h1,
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #20569e;
+    text-transform: uppercase;
+
+}
+
+hr {
+    border: 1px solid #20569e;
+}
+
+.menu {
+    background-color: #20569e;
+    padding: 15px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+iframe {
+    width: 100%;
+    height: 750px;
+}
