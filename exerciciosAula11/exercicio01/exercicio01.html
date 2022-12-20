@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Ubuntu;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    header {
+        margin-bottom: 20px;
+        background-color: #5e0202;
+        height: 50px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    ul li {
+        list-style: none;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+    }
+
+    ul li a:hover {
+        border-bottom: 2px solid white;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section {
+        border: 2px solid #5e0202;
+        width: 550px;
+        margin-bottom: 50px;
+        padding: 20px;
+        border-radius: 10px;
+        height: 600px;
+        text-align: center;
+    }
+
+    main section h1 {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    main section p {
+        text-indent: 1cm;
+        text-align: justify;
+        line-height: 1cm;
+        margin-bottom: 10px;
+    }
+
+    main section button {
+        border: 1px solid black;
+        padding: 10px;
+        width: 200px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        background-color: #5e0202;
+        color: white;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+    footer {
+        border-top: 3px solid #5e0202;
+        background-color: #f8e8e8;
+        text-align: center;
+        padding: 20px;
+    }
+
+    footer h4 {
+        margin: 15px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#noticia">Notícias</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>HOME</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos reprehenderit praesentium vero
+                architecto, nostrum temporibus excepturi aut ullam rem dolores repellendus earum consectetur animi cum
+                quisquam, beatae, voluptates obcaecati eligendi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, nostrum harum ea id quam voluptates ipsam
+                illo, pariatur atque repellat sed voluptas laborum numquam dolorem mollitia sapiente non optio maiores!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque minus itaque facere esse cum officiis
+                temporibus incidunt illo alias delectus beatae quidem quos voluptate harum, nam vero magni voluptatibus
+                culpa!
+            </p>
+            <button>Saiba Mais</button>
+        </section>
+        <section id="noticia">
+            <h1>Notícias</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus accusamus tempore veritatis nihil hic
+                esse odio dolor necessitatibus delectus reiciendis earum asperiores maiores laudantium rem nostrum
+                maxime, inventore, quis iusto. Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Eligendi quo iusto officiis recusandae tempora, ad fugiat cumque quaerat dolor tenetur
+                ipsam fuga assumenda veniam eaque quis consequatur. Culpa, quas quo?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. odio quibusdam veniam, praesentium eveniet quia
+                qui
+                et inventore animi aliquid maxime necessitatibus!</p>
+            <button>Saiba Mais</button>
+
+        </section>
+        <section id="sobre">
+            <h1>Sobre</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatibus odit, voluptatem amet minima
+                praesentium quis inventore aspernatur sit, repellendus repellat, libero perferendis! Aspernatur amet eos
+                soluta modi! Impedit, nesciunt?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nemo quam dolore, doloremque facere
+                expedita laborum, aut consectetur dolorem voluptatem saepe odio assumenda, doloribus omnis corporis
+                dolorum quaerat nobis aspernatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
+                doloribus molestias maiores aliquam quam sint. Labore accusamus tempore dolor sed commodi deserunt ut,
+                nobis recusandae a similique iusto, eligendi cum.</p>
+            <button>Saiba Mais</button>
+
+        </section>
+        <section id="contato">
+            <h1>Contato</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cupiditate corporis nemo maxime omnis
+                eaque reprehenderit dolorum quas ullam reiciendis, perferendis pariatur eveniet itaque molestiae ipsa
+                voluptate iure quisquam maiores. Lorem ipsum dolorequi, deleniti!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni voluptates, quae tenetur eos quam
+                veritatis fuga nam ratione repellendus natus at blanditiis saepe consequatur veniam non autem error vero
+                dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.harum libero quam ut deleniti quia iste
+                minima est, neque id facere. Pariatur doloribus corrupti necessitatibus delectus!</p>
+            <button>Saiba Mais</button>
+
+        </section>
+    </main>
+    <footer>
+        <h4>Fone: (xx) xxxx-xxxx</h4>
+        <h4>Email: fulano@gmail.com</h4>
+        <h4>© 2020 - 2025</h4>
+    </footer>
+</body>
+
+</html>
