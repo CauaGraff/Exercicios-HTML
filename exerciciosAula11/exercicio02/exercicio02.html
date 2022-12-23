@@ -21,7 +21,7 @@
     header {
         margin-bottom: 20px;
         background-color: midnightblue;
-        height: 50px;
+        height: 40px;
     }
 
     ul {
@@ -32,14 +32,20 @@
 
     ul li {
         list-style: none;
-        margin: auto;
-        margin-top: 15px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     ul li a {
         text-decoration: none;
-        text-transform: uppercase;
         color: white;
+
+    }
+
+    ul li a:hover {
+        border-bottom: 2px solid white;
+        font-weight: bold;
     }
 
     iframe {
@@ -57,9 +63,37 @@
     section {
         border: 1px solid black;
         width: 800px;
-        padding: 10px;
+        padding: 25px;
         border-radius: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    h2 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    p {
+        text-indent: 0.5cm;
+        line-height: 1cm;
+    }
+
+    .alinhamento {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .img {
+        width: 300px;
     }
 </style>
 
@@ -92,15 +126,20 @@
             </p>
             <p>Nesse sentido, a Apple é conhecida pela linha de celulares Iphone e por outros aparelhos eletrônicos,
                 como o IPAD e o Apple Watch.</p>
+            <div class="alinhamento">
+                <img src="../exercicio02/img/apple.png" alt="">
+            </div>
         </section>
         <section id="alphabet">
             <h2>Alphabet</h2>
             <p>Alphabet (GOGL35) é a segunda companhia da lista e possui um valor de mercado de 1.44 trilhões de
                 dólares.
-
             </p>
             <p>Em suma, a empresa é a holding que controla o Google e muitas outras empresas. Inclusive controla
                 empresas do mesmo modo, como o Youtube e Android, que também fazem parte da holding.</p>
+            <div class="alinhamento">
+                <img src="../exercicio02/img/alphabet.png" alt="">
+            </div>
         </section>
         <section id="microsoft">
             <h2>Microsoft</h2>
@@ -110,6 +149,9 @@
             </p>
             <p>Assim, a Microsoft (MSFT34) possui um valor de mercado de 1.94 trilhões de dólares. Além do Windows, a
                 Microsoft ainda possui outras marcas, bem como, Xbox e Linkedin.</p>
+            <div class="alinhamento">
+                <img src="../exercicio02/img/microsoft.png" alt="" class="img">
+            </div>
         </section>
         <section id="samsung">
             <h2>Samsung</h2>
@@ -119,6 +161,9 @@
 
             </p>
             <p>Em suma, a Samsung possui atualmente um valor de mercado de 291.13 bilhões de dólares.</p>
+            <div class="alinhamento">
+                <img src="../exercicio02/img/samsung.png" alt="">
+            </div>
         </section>
     </main>
     <footer>
